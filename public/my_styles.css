@@ -1,0 +1,131 @@
+.base-button {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  color: white;
+  border-radius: 5px;
+  /* box-shadow: 2px -6px 46px 25px rgba(0,0,0,0.19) inset;
+  -webkit-box-shadow: 2px -6px 46px 25px rgba(0,0,0,0.19) inset;
+  -moz-box-shadow: 2px -6px 46px 25px rgba(0,0,0,0.19) inset; */
+}
+
+.other-buttons:hover {
+  box-shadow: 2px -6px 46px 25px rgba(0, 0, 0, 0.19) inset;
+  -webkit-box-shadow: 2px -6px 46px 25px rgba(0, 0, 0, 0.19) inset;
+  -moz-box-shadow: 2px -6px 46px 25px rgba(0, 0, 0, 0.19) inset;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  display: flex;
+}
+
+.bootstrap-button {
+  background: pink;
+}
+
+.bootstrap-button:hover {
+  background: white;
+}
+
+.bootstrap-button:active {
+  background: hotpink;
+}
+
+.scary-button {
+  background: red;
+}
+
+.scary-button:hover {
+  background: white;
+}
+
+.scary-button:active {
+  background: yellow;
+}
+
+.primary-btn {
+  background: blue;
+}
+
+.secondary-btn {
+  background: grey;
+}
+
+.success-btn {
+  background: green;
+}
+
+.danger-btn {
+  background: red;
+}
+
+.warning-btn {
+  background: yellow;
+}
+
+.info-btn {
+  background: lightskyblue;
+}
+
+.primary-simple-btn {
+  border: 1px solid blue;
+  color: blue;
+}
+
+.primary-simple-btn:hover {
+  background: blue;
+  color: white;
+}
+
+.secondary-simple-btn {
+  border: 1px solid grey;
+  color: grey;
+}
+
+.secondary-simple-btn:hover {
+  background: grey;
+  color: white;
+}
+
+.success-simple-btn {
+  border: 1px solid green;
+  color: green;
+}
+
+.success-simple-btn:hover {
+  background: green;
+  color: white;
+}
+
+.danger-simple-btn {
+  border: 1px solid red;
+  color: red;
+}
+
+.danger-simple-btn:hover {
+  background: red;
+  color: white;
+}
+
+.warning-simple-btn {
+  border: 1px solid yellow;
+  color: yellow;
+}
+
+.warning-simple-btn:hover {
+  background: yellow;
+  color: white;
+}
+
+.info-simple-btn {
+  background: 1px solid lightskyblue;
+  color: lightskyblue;
+}
+
+.info-simple-btn:hover {
+  background: lightskyblue;
+  color: white;
+}
